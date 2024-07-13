@@ -27,6 +27,8 @@ The dataset consists of audio samples labeled as either Covid-19 positive or neg
 - 1207 negative samples
 - 150 positive samples
 
+  The dataset used for this project is available on Kaggle: [Covid-19 Cough Sounds](https://www.kaggle.com/datasets/pranaynandan63/covid-19-cough-sounds).
+
 ## Data Visualization
 
 Data visualization helps in understanding the audio signals better. The following visualizations are provided for both Covid positive and negative audio samples:
