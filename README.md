@@ -80,6 +80,7 @@ These models were evaluated based on their performance metrics such as accuracy,
 
 The models were evaluated using accuracy, precision, recall, and F1-score. The CNN model showed the best performance, achieving high accuracy in classifying Covid-19 positive and negative samples.
 
+![Comparision of Models](https://github.com/user-attachments/assets/4076530b-f893-457a-b9a4-cc5f7e052c14)
 
 # Contributing
 
