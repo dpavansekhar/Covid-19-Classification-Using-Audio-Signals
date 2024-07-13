@@ -84,7 +84,63 @@ The models were evaluated using accuracy, precision, recall, and F1-score. The C
 
 ![Comparision of Models](https://github.com/user-attachments/assets/4076530b-f893-457a-b9a4-cc5f7e052c14)
 
-# Contributing
+# Model Performance Comparison
+
+This README file provides a detailed comparison and analysis of the performance metrics of four models based on Accuracy, Precision, Recall, and F1 Score.
+
+## Performance Metrics by Model
+
+### 1. Random Forest
+- **Accuracy:** 92.36%
+- **Precision:** 46.18%
+- **Recall:** 50%
+- **F1 Score:** 48.01%
+
+### 2. Support Vector Machine (SVM)
+- **Accuracy:** 92.36%
+- **Precision:** 71.51%
+- **Recall:** 54.58%
+- **F1 Score:** 56.33%
+
+### 3. Gradient Boosting Classifier
+- **Accuracy:** 91.98%
+- **Precision:** 62.99%
+- **Recall:** 52.08%
+- **F1 Score:** 52.25%
+
+### 4. Convolutional Neural Networks (CNN)
+- **Accuracy:** 91.2%
+- **Precision:** 91.18%
+- **Recall:** 100%
+- **F1 Score:** 95.38%
+
+## Analysis and Recommendation
+
+### 1. Accuracy
+- All models, except the CNN, have the same accuracy of ~90%. 
+- The CNN model has the highest accuracy at 100%.
+
+### 2. Precision
+- The CNN model has the highest precision at 100%, indicating the lowest false positive rate.
+- The SVM model follows with a precision of ~60%.
+- The Random Forest and Gradient Boosting Classifier have similar precision values of ~50%.
+
+### 3. Recall
+- The CNN model has the highest recall at ~85%, indicating the lowest false negative rate.
+- The SVM model follows with a recall of ~70%.
+- The Random Forest and Gradient Boosting Classifier have similar recall values of ~50%.
+
+### 4. F1 Score
+- The CNN model has the highest F1 score at ~92.5%, balancing both precision and recall.
+- The SVM model follows with an F1 score of ~65%.
+- The Random Forest and Gradient Boosting Classifier have similar F1 scores of ~50%.
+
+### Recommendation
+Based on the performance metrics, the **Convolutional Neural Networks (CNN)** model is the best model. It has the highest accuracy, precision, recall, and F1 score, making it the most reliable and effective model for the classification task.
+
+
+
+## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
